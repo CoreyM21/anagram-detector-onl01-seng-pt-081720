@@ -6,12 +6,8 @@ class Anagram
     @word = word 
   end
   
-  def match(array)
-    array = []
-    array.find do |a|
-      
-    array 
-      
+  def match(word)
+    word.select {|puzzle| puzzle.split("").sort == @word.split("").sort}
   end
   
 end
