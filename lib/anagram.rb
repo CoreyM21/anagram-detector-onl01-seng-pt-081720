@@ -7,7 +7,11 @@ class Anagram
   end
   
   def match(array)
-    array.
+    array = []
+    array.find do |a|
+      
+    array 
+      
   end
   
 end
